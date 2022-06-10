@@ -1,7 +1,12 @@
 <header>
     <div class="container">
         <div class="nav">
-            <div class="logo"><img src="/img/dc-logo.png" alt=""></div>
+            <div class="logo">
+                <a href="{{route('homepage')}}">
+                    <img src="/img/dc-logo.png" alt="">
+                </a>
+                
+            </div>
             <ul>
                 <li class=" ">
                     Characters
