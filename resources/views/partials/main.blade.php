@@ -10,8 +10,10 @@
             @foreach ($comics as $comic)
                 <section id="cards-container">
                     <div class="card">
-                        <img class="cover-image" src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
-                        <p class="title">{{$comic['title']}}</p>
+                        <a href="{{route('comic')}}">
+                            <img class="cover-image" src="{{$comic['thumb']}}" alt="{{$comic['title']}}">
+                            <p class="title">{{$comic['title']}}</p>
+                        </a>
                     </div>
                 </section>
             @endforeach

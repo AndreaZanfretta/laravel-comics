@@ -85,6 +85,13 @@ main #black .content {
 main #black .content #cards-container {
   width: calc(16.6666666667% - 20px);
   margin: 0 10px;
+  cursor: pointer;
+}
+main #black .content #cards-container a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
 }
 main #black .content .card {
   width: 100%;
@@ -217,4 +224,117 @@ footer .socials h4 {
 }
 footer .socials p {
   margin: 0 5px;
+}
+
+#comic-content .bluebar {
+  width: 100%;
+  height: 80px;
+  background-color: #0282F9;
+}
+#comic-content .bluebar img {
+  margin-top: -230px;
+  margin-left: 15%;
+}
+#comic-content .container {
+  width: 70%;
+  margin: 100px auto;
+}
+#comic-content .container .row {
+  display: flex;
+  width: 100%;
+}
+#comic-content .container .row .col {
+  width: 50%;
+}
+#comic-content .container .row .col h2 {
+  font-size: 26px;
+  text-transform: uppercase;
+  color: #003F5E;
+  margin-bottom: 30px;
+}
+#comic-content .container .row .col .info {
+  background-color: #55BA59;
+  height: 50px;
+  margin-bottom: 30px;
+}
+#comic-content .container .row .col .info .row {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+#comic-content .container .row .col .info .row .col-9 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid grey;
+}
+#comic-content .container .row .col .info .row .col-9 p {
+  color: #BAFD9C;
+}
+#comic-content .container .row .col .info .row .col-9 p span {
+  color: white;
+}
+#comic-content .container .row .col .info .row .col-3 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid grey;
+}
+#comic-content .container .row .col .info .row .col-3 p {
+  color: white;
+}
+#comic-content .container .row .col .description {
+  font-size: 20px;
+}
+#comic-content .container .row .col .advertisement {
+  display: flex;
+  flex-flow: column nowrap;
+}
+#comic-content .container .row .col .advertisement p {
+  text-align: center;
+  font-size: 20px;
+}
+#comic-content .container .row .col .advertisement img {
+  width: 60%;
+  padding-left: 50px;
+}
+
+#specs {
+  background-color: #F6F6F6;
+}
+#specs .container {
+  width: 70%;
+  margin: 0 auto;
+}
+#specs .container .row {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+#specs .container .row .col {
+  width: 50%;
+}
+#specs .container .row .col h3 {
+  font-size: 20px;
+  padding: 20px 30px;
+  border-bottom: 1px solid grey;
+}
+#specs .container .row .col .row {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid grey;
+}
+#specs .container .row .col .row .col {
+  padding: 10px 0;
+}
+#specs .container .row .col .row .col .artist {
+  display: inline-block;
+  font-size: 12px;
+  color: #0282F9;
 }

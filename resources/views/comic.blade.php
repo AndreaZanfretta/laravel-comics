@@ -1,11 +1,11 @@
 @extends('layouts.base')
 
 @section('pageTitle')
-    DC Comics - Homepage
+    DC Comics - Comic
 @endsection
 
 @section('content')
     @include('partials.header')
-    @include('partials.main')
+    @include('partials.comicMain')
     @include('partials.footer')
 @endsection

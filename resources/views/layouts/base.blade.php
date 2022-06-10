@@ -8,8 +8,6 @@
     <title>@yield('pageTitle')</title>
 </head>
 <body>
-    @include('partials.header')
-    @include('partials.main')
-    @include('partials.footer')
+    @yield('content')
 </body>
 </html>
